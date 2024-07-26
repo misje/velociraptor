@@ -11,9 +11,6 @@ description: |
 
 author: Matt Green - @mgreen27
 
-required_permissions:
-  - EXECVE
-
 tools:
   - name: Intezer
     url: https://analyze.intezer.com/api/scans/download

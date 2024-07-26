@@ -17,9 +17,6 @@ description: |
 
 author: Matt Green - @mgreen27
 
-required_permissions:
-  - EXECVE
-
 type: CLIENT
 
 parameters:

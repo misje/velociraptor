@@ -27,9 +27,6 @@ author: Matt Green - @mgreen27
 reference:
   - https://mgreen27.github.io/posts/2020/07/23/IPSEC.html
 
-required_permissions:
-  - EXECVE
-
 precondition: SELECT OS From info() where OS = 'windows'
 
 parameters:

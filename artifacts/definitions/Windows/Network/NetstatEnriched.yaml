@@ -14,9 +14,6 @@ description: |
   Please only use these switches after scoping as there are no guardrails on
   shooting yourself in the foot.
 
-required_permissions:
-  - EXECVE
-
 precondition: SELECT OS From info() where OS = 'windows'
 
 parameters:

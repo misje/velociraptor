@@ -16,9 +16,6 @@ description: |
   client. Reduce this number if you need to rekey a lot of clients
   quickly.
 
-required_permissions:
-  - EXECVE
-
 parameters:
   - name: Wait
     description: Wait this long before restarting the client.

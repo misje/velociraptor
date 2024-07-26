@@ -12,9 +12,6 @@ description: |
   NOTE: Be careful with the DisplayNameRegex to ensure you do not
   uninstall another package accidentally.
 
-required_permissions:
-  - EXECVE
-
 parameters:
   - name: DisplayNameRegex
     type: regex

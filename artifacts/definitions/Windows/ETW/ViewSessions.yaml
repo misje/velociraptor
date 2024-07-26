@@ -2,9 +2,6 @@ name: Windows.ETW.ViewSessions
 description: |
   This artifact enumerates all ETW sessions and optionally kills dangling ones
 
-required_permissions:
-  - EXECVE
-
 precondition: SELECT OS From info() where OS = 'windows'
 parameters:
   - name: SessionRegex
